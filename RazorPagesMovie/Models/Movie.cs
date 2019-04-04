@@ -14,7 +14,7 @@ namespace RazorPagesMovie.Models
 		[DataType(DataType.Date)]
 		[Display(Name = "Release Date")]
 		public DateTime ReleaseDate { get; set; }
-
+		
 		[Range(1,100)]
 		[DataType(DataType.Currency)]
 		[Column(TypeName = "decimal(18,2)")]
